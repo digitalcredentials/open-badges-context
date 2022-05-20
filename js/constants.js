@@ -4,5 +4,5 @@
 'use strict';
 
 module.exports = {
-  CONTEXT_URL_V3: 'https://w3id.org/openbadges/v3'
+  CONTEXT_URL_V3: 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html'
 };

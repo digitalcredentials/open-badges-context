@@ -1,3 +1,4 @@
+/* eslint-disable */
 /*!
  * Copyright (c) 2022 Digital Credentials Consortium. All rights reserved.
  */
@@ -31,24 +32,24 @@ module.exports = {
           '@type': 'xsd:float'
         },
         'criteria': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#criteria', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#criteria',
           '@type': '@id'
         },
         'fieldOfStudy': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#fieldOfStudy', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#fieldOfStudy',
           '@type': 'xsd:string'
         },
         'humanCode': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#humanCode', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#humanCode',
           '@type': 'xsd:string'
         },
         'specialization': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#specialization', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#specialization',
           '@type': 'xsd:string'
         },
         'tags': {
-          '@id': 'https://schema.org/keywords', 
-          '@type': 'xsd:string', 
+          '@id': 'https://schema.org/keywords',
+          '@type': 'xsd:string',
           '@container': '@set'
         }
       }
@@ -74,34 +75,34 @@ module.exports = {
       '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#Address',
       '@context': {
         'addressCountry': {
-          '@id': 'https://schema.org/addressCountry', 
+          '@id': 'https://schema.org/addressCountry',
           '@type': 'xsd:string'
         },
         'addressCountryCode': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#CountryCode', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#CountryCode',
           '@type': 'xsd:string'
         },
         'addressLocality': {
-          '@id': 'https://schema.org/addresLocality', 
+          '@id': 'https://schema.org/addresLocality',
           '@type': 'xsd:string'
         },
         'addressRegion': {
-          '@id': 'https://schema.org/addressRegion', 
+          '@id': 'https://schema.org/addressRegion',
           '@type': 'xsd:string'
         },
         'geo': {
           '@id' : 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#GeoCoordinates'
         },
         'postOfficeBoxNumber': {
-          '@id': 'https://schema.org/postOfficeBoxNumber', 
+          '@id': 'https://schema.org/postOfficeBoxNumber',
           '@type': 'xsd:string'
         },
         'postalCode': {
-          '@id': 'https://schema.org/postalCode', 
+          '@id': 'https://schema.org/postalCode',
           '@type': 'xsd:string'
         },
         'streetAddress': {
-          '@id': 'https://schema.org/streetAddress', 
+          '@id': 'https://schema.org/streetAddress',
           '@type': 'xsd:string'
         }
       }
@@ -110,25 +111,25 @@ module.exports = {
       '@id': 'https://schema.org/Alignment',
       '@context': {
         'targetCode': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#targetCode', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#targetCode',
           '@type': 'xsd:string'
         },
         'targetDescription': {
-          '@id': 'https://schema.org/targetDescription', 
+          '@id': 'https://schema.org/targetDescription',
           '@type': 'xsd:string'
         },
         'targetFramework': {
-          '@id': 'https://schema.org/targetFramework', 
+          '@id': 'https://schema.org/targetFramework',
           '@type': 'xsd:string'
         },
         'targetName': {
-          '@id': 'https://schema.org/targetName', 
+          '@id': 'https://schema.org/targetName',
           '@type': 'xsd:string'
-        }, 
+        },
         'targetType': {
           '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#targetType',
           '@type': 'xsd:string'
-        },     
+        },
         'targetUrl': {
           '@id': 'https://schema.org/targetUrl',
           '@type': 'xsd:anyURI'
@@ -145,7 +146,7 @@ module.exports = {
       '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#EndorsementSubject',
       '@context': {
         'endorsementComment': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#endorsementComment', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#endorsementComment',
           '@type': 'xsd:string'
         }
       }
@@ -154,7 +155,7 @@ module.exports = {
       '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#Evidence',
       '@context': {
         'audience': {
-          '@id': 'https://schema.org/audience', 
+          '@id': 'https://schema.org/audience',
           '@type': 'xsd:string'
         },
         'genre': {
@@ -167,11 +168,11 @@ module.exports = {
       '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#GeoCoordinates',
       '@context': {
         'latitude': {
-          '@id': 'https://schema.org/latitude', 
+          '@id': 'https://schema.org/latitude',
           '@type': 'xsd:string'
         },
         'longitude': {
-          '@id': 'https://schema.org/longitude', 
+          '@id': 'https://schema.org/longitude',
           '@type': 'xsd:string'
         }
       }
@@ -180,15 +181,15 @@ module.exports = {
       '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#IdentityObject',
       '@context': {
         'hashed': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#hashed', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#hashed',
           '@type': 'xsd:boolean'
         },
         'identityHash': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#identityHash', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#identityHash',
           '@type': 'xsd:string'
         },
         'salt':  {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#salt', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#salt',
           '@type': 'xsd:string'
         }
       }
@@ -217,7 +218,7 @@ module.exports = {
           '@type': 'xsd:date'
         },
         'email': {
-          '@id': 'https://schema.org/email', 
+          '@id': 'https://schema.org/email',
           '@type': 'xsd:string'
         },
         'familyName': {
@@ -249,7 +250,7 @@ module.exports = {
           '@type': 'xsd:string'
         },
         'phone': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#PhoneNumber', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#PhoneNumber',
           '@type': 'xsd:string'
         },
         'official': {
@@ -270,7 +271,7 @@ module.exports = {
       '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#Result',
       '@context': {
         'achievedLevel': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#achievedLevel', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#achievedLevel',
           '@type': 'xsd:anyURI'
         },
         'resultDescription': {
@@ -278,11 +279,11 @@ module.exports = {
           '@type': 'xsd:anyURI'
         },
         'status': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#status', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#status',
           '@type': 'xsd:string'
         },
         'value': {
-          '@id': 'https://schema.org/value', 
+          '@id': 'https://schema.org/value',
           '@type': 'xsd:string'
         }
       }
@@ -291,71 +292,71 @@ module.exports = {
       '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#ResultDescription',
       '@context': {
         'allowedValue': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#allowedValue', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#allowedValue',
           '@type': 'xsd:string'
         },
         'requiredLevel': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#requiredLevel', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#requiredLevel',
           '@type': 'xsd:anyURI'
         },
         'requiredValue': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#requiredValue', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#requiredValue',
           '@type': 'xsd:string'
         },
         'resultType': {
-          '@id':'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#resultType',  
+          '@id':'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#resultType',
           '@type': 'xsd:string'
         },
         'rubricCriterionLevel': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#RubricCriterionLevel',
         'valueMax': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#valueMax', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#valueMax',
           '@type': 'xsd:string'
         },
         'valueMin': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#valueMin', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#valueMin',
           '@type': 'xsd:string'
-        }              
+        }
       }
     },
     RubricCriterionLevel: {
       '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#RubricCriterionLevel',
       '@context': {
         'level': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#level', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#level',
           '@type': 'xsd:string'
         },
         'points': {
-          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#points', 
+          '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#points',
           '@type': 'xsd:string'
         }
       }
     },
     alignment: {
-      '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#Alignment', 
+      '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#Alignment',
       '@type': '@id'
-    },    
+    },
     description: {
-      '@id': 'https://schema.org/description', 
+      '@id': 'https://schema.org/description',
       '@type': 'xsd:string'
     },
     endorsement: {
-      '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#endorsement', 
+      '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#endorsement',
       '@type': '@id'
     },
     image: {
-      '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#image', 
+      '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#image',
       '@type': '@id'
     },
     name: {
-      '@id': 'https://schema.org/name', 
+      '@id': 'https://schema.org/name',
       '@type': 'xsd:string'
     },
     narrative: {
-      '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#narrative', 
+      '@id': 'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html#narrative',
       '@type': 'xsd:string'
     },
     url: {
-      '@id': 'https://schema.org/url', 
+      '@id': 'https://schema.org/url',
       '@type': 'xsd:anyURI'
     }
   }

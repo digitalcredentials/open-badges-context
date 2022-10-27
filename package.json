@@ -1,6 +1,6 @@
 {
   "name": "@digitalcredentials/open-badges-context",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NPM package for the OBv3 (Open Badges version 3) JSON-LD context.",
   "main": "js/index.js",
   "module": "./dist/context.esm.js",

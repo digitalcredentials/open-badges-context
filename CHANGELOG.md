@@ -1,5 +1,10 @@
 # @digitalcredentials/open-badges-context ChangeLog
 
+## 2.0.0 - 2023-06-16
+### Changed
+- **BREAKING**: Refactor contexts, export OBv3 contexts from `3.0-beta`, to
+  `3.0.2`, setting latest `CONTEXT_URL_V3` to 3.0.2
+
 ## 1.0.0
 
 Updated to reflect OB V3 context posted by 1EdTech on Friday, 11/4
@@ -16,4 +21,3 @@ Updated IMS Global OB V3 context to latest spec
 ## 0.1.0
 
 Added additional context URL aliases
-

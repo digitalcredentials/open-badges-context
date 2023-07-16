@@ -56,6 +56,16 @@ The library exports the following properties:
 
 See [index.js](./js/index.js) for full list of exports.
 
+### Developing
+
+When adding a new `@context`, do all of the following:
+
+1. Add the new context file to `js/contexts`
+2. Update `js/index.js`
+3. Update `rollup.config.js` with the new exports
+4. Update `context.spec.js` with the new exports
+5. Update README / Usage section.
+
 ## License
 
 * [MIT License](./LICENSE)

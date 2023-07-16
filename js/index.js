@@ -23,14 +23,23 @@ const context_v3_0_0 = require('./contexts/context-3.0');
 const context_v3_0_1 = require('./contexts/context-3.0.1');
 const context_v3_0_2 = require('./contexts/context-3.0.2');
 
+// Used for early OBv3 issuance before the spec was finalized
 const CONTEXT_URL_V3_ALPHA =
   'https://imsglobal.github.io/openbadges-specification/ob_v3p0.html';
+
+// This URL was used for issuing JFF 1 credentials
 const CONTEXT_URL_V3_JFF_V1 =
   'https://w3c-ccg.github.io/vc-ed/plugfest-1-2022/jff-vc-edu-plugfest-1-context.json';
-const CONTEXT_URL_V3_BETA =
-  'https://purl.imsglobal.org/spec/ob/v3p0/context.json';
+
+// Note: This URL is actually 'https://purl.imsglobal.org/spec/ob/v3p0/context.json'
+// Which is the same url used by v3.0.0 production. To prevent overwriting
+// the contents, BETA gets its own 'id' (for use in custom processing)
+const CONTEXT_URL_V3_BETA = 'OBv3_beta'
+
+// Finalized on Nov 4, 2022
 const CONTEXT_URL_V3_0_0 =
   'https://purl.imsglobal.org/spec/ob/v3p0/context.json';
+
 const CONTEXT_URL_V3_0_1 =
   'https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.1.json';
 const CONTEXT_URL_V3_0_2 =

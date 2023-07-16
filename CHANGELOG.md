@@ -1,5 +1,9 @@
 # @digitalcredentials/open-badges-context ChangeLog
 
+## 2.0.1 - 2023-06-16
+### Changed
+- Fixed the OBv3 BETA url, so `ctx.CONTEXT_URL_V3_BETA` resolves to `OBv3_beta`. 
+
 ## 2.0.0 - 2023-06-16
 ### Changed
 - **BREAKING**: Refactor contexts, export OBv3 contexts from `3.0-beta`, to

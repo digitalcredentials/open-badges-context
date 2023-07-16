@@ -15,7 +15,9 @@
 
 ## Background
 
-For use with JSON-LD document loaders (such as [`jsonld-document-loader`](https://github.com/digitalbazaar/jsonld-document-loader)).
+For use with JSON-LD document loaders (such as
+the DCC [`security-document-loader`](https://github.com/digitalcredentials/security-document-loader)
+or DigitalBazaar's [`jsonld-document-loader`](https://github.com/digitalbazaar/jsonld-document-loader)). 
 
 ## Install
 
@@ -33,13 +35,12 @@ npm install @digitalcredentials/open-badges-context
 import obCtx from '@digitalcredentials/open-badges-context';
 // or
 const obCtx = require('@digitalcredentials/open-badges-context');
-const {contexts, constants} = obCtx;
 
 obCtx.CONTEXT_URL_V3
-// 'https://w3id.org/openbadges/v3'
+// 'https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.2.json' <-- Latest URL
 
 // get context data for a specific context
-obCtx.CONTEXT_V3
+obCtx.contexts.get(obCtx.CONTEXT_URL_V3)
 // full context object
 ```
 
@@ -49,15 +50,11 @@ in browser applications.
 ### API
 
 The library exports the following properties:
-- `CONTEXT_URL_V3` and `CONTEXT_V3` (it's recommended that context repositories only export one context).
-- `constants`: A Object that maps constants to well-known context URLs. The
-  main constant `CONTEXT_URL_V3` may be updated from time to time to the
-  latest context location.
+- Various OBv3 `@context` URLs, such as:
+  `CONTEXT_URL_V3`, `CONTEXT_URL_V3_0_0`, `CONTEXT_URL_V3_0_1` etc.
 - `contexts`: A `Map` that maps URLs to full context data.
 
-## Developing
-
-To manage the context, edit the [`js/context.js`](js/context.js) file.
+See [index.js](./js/index.js) for full list of exports.
 
 ## License
 

@@ -22,6 +22,8 @@ const context_v3_0_0 = require('./contexts/context-3.0');
 
 const context_v3_0_1 = require('./contexts/context-3.0.1');
 const context_v3_0_2 = require('./contexts/context-3.0.2');
+const context_v3_0_3 = require('./contexts/context-3.0.3');
+const context_v3_extensions = require('./contexts/context-extensions');
 
 // Used for early OBv3 issuance before the spec was finalized
 const CONTEXT_URL_V3_ALPHA =
@@ -44,6 +46,10 @@ const CONTEXT_URL_V3_0_1 =
   'https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.1.json';
 const CONTEXT_URL_V3_0_2 =
   'https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.2.json';
+const CONTEXT_URL_V3_0_3 =
+  'https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json';
+const CONTEXT_URL_V3_EXTENSIONS =
+  'https://purl.imsglobal.org/spec/ob/v3p0/extensions.json';
 
 const contexts = new Map();
 contexts.set(CONTEXT_URL_V3_ALPHA, context_v3_beta);
@@ -52,10 +58,12 @@ contexts.set(CONTEXT_URL_V3_BETA, context_v3_beta);
 contexts.set(CONTEXT_URL_V3_0_0, context_v3_0_0);
 contexts.set(CONTEXT_URL_V3_0_1, context_v3_0_1);
 contexts.set(CONTEXT_URL_V3_0_2, context_v3_0_2);
+contexts.set(CONTEXT_URL_V3_0_3, context_v3_0_3);
+contexts.set(CONTEXT_URL_V3_EXTENSIONS, context_v3_extensions);
 
 // Latest OBv3 context url
-const CONTEXT_URL_V3 = CONTEXT_URL_V3_0_2;
-contexts.set(CONTEXT_URL_V3, context_v3_0_2);
+const CONTEXT_URL_V3 = CONTEXT_URL_V3_0_3;
+contexts.set(CONTEXT_URL_V3, context_v3_0_3);
 
 module.exports = {
   contexts,
@@ -65,5 +73,7 @@ module.exports = {
   CONTEXT_URL_V3_0_0,
   CONTEXT_URL_V3_0_1,
   CONTEXT_URL_V3_0_2,
+  CONTEXT_URL_V3_0_3,
+  CONTEXT_URL_V3_EXTENSIONS,
   CONTEXT_URL_V3,
 };

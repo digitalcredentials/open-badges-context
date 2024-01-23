@@ -14,7 +14,8 @@ module.exports = {
         'dist/context.js': [
           'contexts', 'CONTEXT_URL_V3', 'CONTEXT_URL_V3_ALPHA',
           'CONTEXT_URL_V3_JFF_V1', 'CONTEXT_URL_V3_BETA', 'CONTEXT_URL_V3_0_0',
-          'CONTEXT_URL_V3_0_1', 'CONTEXT_URL_V3_0_2'
+          'CONTEXT_URL_V3_0_1', 'CONTEXT_URL_V3_0_2', 'CONTEXT_URL_V3_0_3',
+          'CONTEXT_URL_V3_EXTENSIONS'
         ]
       }
     })

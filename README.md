@@ -37,7 +37,7 @@ import obCtx from '@digitalcredentials/open-badges-context';
 const obCtx = require('@digitalcredentials/open-badges-context');
 
 obCtx.CONTEXT_URL_V3
-// 'https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.2.json' <-- Latest URL
+// 'https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json' <-- Latest URL
 
 // get context data for a specific context
 obCtx.contexts.get(obCtx.CONTEXT_URL_V3)
@@ -51,7 +51,7 @@ in browser applications.
 
 The library exports the following properties:
 - Various OBv3 `@context` URLs, such as:
-  `CONTEXT_URL_V3`, `CONTEXT_URL_V3_0_0`, `CONTEXT_URL_V3_0_1` etc.
+  `CONTEXT_URL_V3`, `CONTEXT_URL_V3_0_0`, `CONTEXT_URL_V3_0_3` etc.
 - `contexts`: A `Map` that maps URLs to full context data.
 
 See [index.js](./js/index.js) for full list of exports.

@@ -1,6 +1,6 @@
 # @digitalcredentials/open-badges-context ChangeLog
 
-## 2.1.0 -
+## 2.1.0 - 2024-01-23
 ### Added
 - Add support for OBv3 context `3.0.3` as well as the `extensions` context.
 

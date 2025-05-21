@@ -1,5 +1,10 @@
 # @digitalcredentials/open-badges-context ChangeLog
 
+## 3.0.0 - 2025-05-21
+### Changed
+- **BREAKING**: Update the 3.0.3 context to include the latest published 
+changes from 1EdTech, in particular the new inLanguage and awardedDate properties.
+
 ## 2.1.0 - 2024-01-23
 ### Added
 - Add support for OBv3 context `3.0.3` as well as the `extensions` context.

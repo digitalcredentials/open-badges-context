@@ -67,6 +67,9 @@ module.exports = {
         },
         "version": {
           "@id": "https://purl.imsglobal.org/spec/vc/ob/vocab.html#version"
+        },
+        "inLanguage": {
+          "@id": "https://schema.org/inLanguage"
         }
       }
     },
@@ -337,6 +340,9 @@ module.exports = {
         "type": "@type",
         "version": {
           "@id": "https://purl.imsglobal.org/spec/vc/ob/vocab.html#version"
+        },
+        "inLanguage": {
+          "@id": "https://schema.org/inLanguage"
         }
       }
     },
@@ -423,6 +429,9 @@ module.exports = {
       "@id": "https://purl.imsglobal.org/spec/vc/ob/vocab.html#image",
       "@type": "@id"
     },
+    "inLanguage": {
+      "@id": "https://schema.org/inLanguage"
+    },
     "name": {
       "@id": "https://schema.org/name"
     },
@@ -432,6 +441,10 @@ module.exports = {
     "url": {
       "@id": "https://schema.org/url",
       "@type": "https://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "awardedDate": {
+      "@id": "https://purl.imsglobal.org/spec/vc/ob/vocab.html#awardedDate",
+      "@type": "xsd:dateTime"
     }
   }
 }
